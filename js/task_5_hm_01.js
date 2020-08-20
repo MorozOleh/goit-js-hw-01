@@ -36,7 +36,7 @@
 // то значение message будет равно
 // 'В выбранную страну доставка недоступна.'
 
-const countryName = null;
+const countryName = 'итай';
 
 const CANCELED_BY_USER = 'Отменено пользователем!';
 const NO_DELIVERY = 'В выбранную страну доставка недоступна.';
@@ -75,7 +75,7 @@ if (countryName === null) {
 }
 
 if (price === 0) {
-  message === NO_DELIVERY;
+  message = NO_DELIVERY;
 } else if (country) {
   message = `Доставка в ${country} будет стоить ${price} кредитов`;
 }
